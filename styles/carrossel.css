@@ -8,6 +8,10 @@
     padding: 1em 0 0.5em 0;
 }
 
+.swiper-slide{
+    gap: 10px;
+}
+
 .swiper-slide img {
     width: 300px;
 }
@@ -82,6 +86,6 @@
     width: 24px;
 }
 
-.descrição_imagem{
+.descrição_imagem img{
     width: 10%;
 }
