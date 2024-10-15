@@ -12,21 +12,17 @@
     display: flex; 
     overflow-x: auto; 
     scrollbar-width: thin; 
+    -webkit-overflow-scrolling: touch;
 }
 
-.swiper-wrapper {
-    display: flex;
-    overflow-x: auto;
-    scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch; 
-    width: 100%;
+.swiper-slide {
+    display: flex; 
     gap: 10px; 
 }
 
 .swiper-slide img {
     width: 300px; 
-    height: auto; 
-    object-fit: cover; 
+    height: 450px; 
 }
 
 
@@ -99,6 +95,10 @@
     width: 24px;
 }
 
-.descrição_imagem{
+.card__descrição .descrição_imagem img{
     width: 10%;
+}
+
+.card__descrição .descrição img{
+    width: 24px;
 }
