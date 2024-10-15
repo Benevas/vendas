@@ -14,14 +14,19 @@
     scrollbar-width: thin; 
 }
 
-.swiper-slide {
-    display: flex; 
+.swiper-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch; 
+    width: 100%;
     gap: 10px; 
 }
 
 .swiper-slide img {
     width: 300px; 
-    height: 450px; 
+    height: auto; 
+    object-fit: cover; 
 }
 
 
@@ -94,6 +99,6 @@
     width: 24px;
 }
 
-.descrição_imagem img{
+.descrição_imagem{
     width: 10%;
 }
