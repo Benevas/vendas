@@ -9,8 +9,7 @@
 }
 
 .swiper-slide img {
-    width: 330px;
-    height: 350px;
+    width: 100%;
 }
 
 
@@ -75,6 +74,7 @@
 }
 
 .botões__item {
+    width: 24px;
     margin: 0 0.5em;
 }
 .descrição_imagem{
