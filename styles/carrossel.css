@@ -77,6 +77,11 @@
     width: 24px;
     margin: 0 0.5em;
 }
+
+.botões__item img{
+    width: 24px;
+}
+
 .descrição_imagem{
     width: 10%;
 }
