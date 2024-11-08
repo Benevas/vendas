@@ -58,3 +58,13 @@
 .container__botao {
     display: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .lista-menu{
+        display: flex;
+        gap: 10px;
+    }
+    .lista-menu__titulo{
+        display: none;
+    }
+}
