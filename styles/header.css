@@ -67,4 +67,7 @@
     .lista-menu__titulo{
         display: none;
     }
+    .cabeçalho__menu-hamburguer{
+        display: none;
+    }
 }
